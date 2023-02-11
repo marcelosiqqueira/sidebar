@@ -56,7 +56,7 @@ buttonMenu.addEventListener("click", function(){
     for(let button of allButtons)
     {
       button.style.width = "50px";
-      button.classList.add('alignButton');
+      button.classList.add('alignButtonInitial');
     }
     buttonSearch.removeChild(spanSearch)
     buttonGrid.removeChild(spanGrid)

@@ -39,6 +39,8 @@ aside{
 
 .logo-on-menu{
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .vertical-icons{
@@ -64,7 +66,6 @@ aside{
 button{
     display: flex;
     justify-content: center;
-
     align-items: center;
 }
 
@@ -75,6 +76,12 @@ img{
 .alignButton{
     display: flex;
     justify-content: start;
+    align-items: center;
+}
+
+.alignButtonInitial{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
